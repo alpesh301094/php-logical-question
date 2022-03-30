@@ -1,6 +1,5 @@
 <?php
-
-$MyNum = 31;
+$MyNum = 17;
 $n = 0;
 
 for($i = 2; $i < $MyNum; $i++) {
@@ -15,5 +14,4 @@ if ($n == 0){
 } else {
   echo $MyNum." is not a prime number.";
 }
-
 ?>

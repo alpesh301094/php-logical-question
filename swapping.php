@@ -3,9 +3,9 @@ $a = 10;
 $b = 20;
 
 // Using Third Variable ----
-/* $c = $a;
-$a = $b;
-$b = $c;
+/* $c = $a; // 10
+$a = $b; // 20
+$b = $c; // 10
 
 echo "A value".$a;
 echo "=====";
