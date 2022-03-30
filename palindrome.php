@@ -3,8 +3,8 @@ function palindrome($n){
 $number = $n;  
 $sum = 0;  
 while(floor($number)) {  
-    $rem = $number % 10;  
-    $sum = $sum * 10 + $rem;  
+    $rem = $number % 10;
+    $sum = $sum * 10 + $rem;
     $number = $number/10;  
 }  
 return $sum;  
