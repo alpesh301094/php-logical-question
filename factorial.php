@@ -1,4 +1,8 @@
 <?php
+/* The factorial of a number n is defined by the product of all the digits from 1 to n (including 1 and n). 
+4! = 4*3*2*1 = 24  
+6! = 6*5*4*3*2*1 = 720  
+*/
 // Using Loop
 $num = 4;
 $factorial = 1;  
